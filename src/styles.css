@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: var(--primary-color);
+}
+
+hr {
+  max-width: 50%;
+  margin: 30px auto;
+  border: 1px var(--fourth-color) solid;
+}

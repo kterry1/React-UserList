@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css?family=Share+Tech&display=swap"rel="stylesheet");
+
+:root {
+  --primary-color: #282833;
+  --secondary-color: #52e3c2;
+  --third-color: #6e7288;
+  --fourth-color: #546e7a;
+  --error-font: #f67280;
+  --main-font: "Share Tech", sans-serif;
+}
+
+h1 {
+  font-family: var(--main-font);
+  color: white;
+}
+
+input {
+  margin: 0 5px;
+  border-radius: 3px;
+  border-style: none;
+  height: 1.5em;
+  outline: none;
+  background-color: var(--third-color);
+  color: var(--secondary-color);
+  padding-left: 5px;
+}
+
+::placeholder {
+  color: var(--secondary-color);
+}
+
+li {
+  color: white;
+  margin: 10px 10px;
+  background: var(--fourth-color);
+  border-radius: 5px;
+  max-height: 50px;
+  font-size: 20px;
+  padding: 10px 5px;
+  text-align: left;
+  line-height: 2;
+  list-style-type: none;
+}
+
+ul {
+  width: 50vw;
+  height: 80vh;
+  margin: auto;
+  list-style-type: upper-roman;
+  font-family: var(--main-font);
+  border-left: 2.5px var(--fourth-color) solid;
+  border-right: 2.5px var(--fourth-color) solid;
+  padding: 0;
+}
+
+button {
+  padding: 0;
+  margin: 0;
+}
+
+span {
+  font-family: var(--main-font);
+  color: var(--error-font);
+  position: absolute;
+  left: 50%;
+}
+
+p {
+  color: var(--error-font);
+  font-size: 18px;
+}
+
+.largeButton {
+  margin: 0 10px;
+  background-color: var(--secondary-color);
+  color: white;
+  outline: none;
+  border: none;
+  height: 32px;
+  width: 150px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.deleteButton {
+  margin: 5px 10px;
+  outline: none;
+  border: none;
+  height: 30px;
+  width: 50px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  float: right;
+  color: white;
+  background-color: var(--secondary-color);
+}
+
+.toggleButton {
+  margin: 5px 10px;
+  background-color: var(--secondary-color);
+  color: white;
+  outline: none;
+  border: none;
+  height: 30px;
+  width: 200px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
